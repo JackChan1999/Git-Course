@@ -21,3 +21,10 @@
 Git教程原文 - 廖雪峰的官方网站
 
 廖雪峰，十年软件开发经验，业余产品经理，精通Java/Python/Ruby/Visual Basic/Objective C等，对开源框架有深入研究，著有《Spring 2.0核心技术与最佳实践》一书，多个业余开源项目托管在GitHub
+
+# 更多Git教程
+
+- [Pro Git 中文版](https://www.gitbook.com/book/0532/progit/details)
+- [Pro Git 第二版 简体中文](https://www.gitbook.com/book/bingohuang/progit2/details)
+- [从 0 开始学习 GitHub](https://www.gitbook.com/book/stormzhang/learn-github-from-zero/details)
+- [github-cheat-sheet GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
