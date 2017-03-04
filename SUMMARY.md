@@ -1,5 +1,7 @@
 # Summary
 
+## [Git教程](README.md)
+
 ## Git简介
 
 - [Git的诞生](Git简介/Git的诞生.md)
