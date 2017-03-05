@@ -29,6 +29,13 @@ Git教程原文 - 廖雪峰的官方网站
 - [从 0 开始学习 GitHub](https://www.gitbook.com/book/stormzhang/learn-github-from-zero/details)
 - [github-cheat-sheet GitHub秘籍](https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.md)
 
+# Github托管主页
+
+https://github.com/JackChen1999/Git-Course
+请读者点击Star进行关注并支持！
+
+# 在线阅读
+
 # 课程结构
 
 * [序言](README.md)
