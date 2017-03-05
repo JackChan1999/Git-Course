@@ -36,6 +36,8 @@ https://github.com/JackChen1999/Git-Course
 
 # 在线阅读
 
+https://alleniverson.gitbooks.io/gitcourse/content/
+
 # 课程结构
 
 * [序言](README.md)
