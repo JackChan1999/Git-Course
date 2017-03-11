@@ -42,7 +42,7 @@ video：http://michaelliao.gitcafe.io/video/git-init.mp4
 
 千万不要使用Windows自带的记事本编辑任何文本文件。原因是Microsoft开发记事本的团队使用了一个非常弱智的行为来保存UTF-8编码的文件，他们自作聪明地在每个文件开头添加了0xefbbbf（十六进制）的字符，你会遇到很多不可思议的问题，比如，网页第一行可能会显示一个“?”，明明正确的程序一编译就报语法错误，等等，都是由记事本的弱智行为带来的。建议你下载Notepad++代替记事本，不但功能强大，而且免费！记得把Notepad++的默认编码设置为UTF-8 without BOM即可：
 
-![set-utf8-notepad++](http://www.liaoxuefeng.com/files/attachments/001384907170801199e153159cc4a438bed8d255edf157a000/0)
+![set-utf8-notepad++](../assets/git6.jpg)
 
 言归正传，现在我们编写一个readme.txt文件，内容如下：
 

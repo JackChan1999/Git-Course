@@ -1,4 +1,4 @@
-![](http://www.liaoxuefeng.com/files/attachments/0013848605496402772ffdb6ab448deb7eef7baa124171b000/0)
+![git](assets/git0.jpg)
 
 史上最浅显易懂的Git教程！
 

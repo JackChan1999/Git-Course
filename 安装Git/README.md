@@ -1,5 +1,5 @@
 # 第3章 安装Git
- 
+
 最早Git是在Linux上开发的，很长一段时间内，Git也只能在Linux和Unix系统上跑。不过，慢慢地有人把它移植到了Windows上。现在，Git可以在Linux、Unix、Mac和Windows这几大平台上正常运行了。
 
 要使用Git，第一步当然是安装Git了。根据你当前使用的平台来阅读下面的文字：
@@ -32,7 +32,7 @@ video：http://michaelliao.gitcafe.io/video/git-apt-install.mp4
 
 第二种方法更简单，也是推荐的方法，就是直接从AppStore安装Xcode，Xcode集成了Git，不过默认没有安装，你需要运行Xcode，选择菜单“Xcode”->“Preferences”，在弹出窗口中找到“Downloads”，选择“Command Line Tools”，点“Install”就可以完成安装了。
 
-![install-git-by-xcode](http://www.liaoxuefeng.com/files/attachments/001384907061183ba2a452af9de4a8a8640339239bc3e5e000/0)
+![install-git-by-xcode](../assets/git4.jpg)
 
 Xcode是Apple官方IDE，功能非常强大，是开发Mac和iOS App的必选装备，而且是免费的！
 
@@ -46,7 +46,7 @@ msysgit是Windows版的Git，从https://git-for-windows.github.io下载（网速
 
 安装完成后，在开始菜单里找到“Git”->“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！
 
-![install-git-on-windows](http://www.liaoxuefeng.com/files/attachments/001384907073134ef6feff559cf4ce3a2c5c588d2831c0a000/0)
+![install-git-on-windows](../assets/git5.jpg)
 
 安装完成后，还需要最后一步设置，在命令行输入：
 

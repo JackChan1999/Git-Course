@@ -32,11 +32,11 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容：
 
-![github-addkey-1](http://www.liaoxuefeng.com/files/attachments/001384908342205cc1234dfe1b541ff88b90b44b30360da000/0)
+![github-addkey-1](../assets/git14.png)
 
 点“Add Key”，你就应该看到已经添加的Key：
 
-![github-addkey-2](http://www.liaoxuefeng.com/files/attachments/0013849083502905a4caa2dc6984acd8e39aa5ae5ad6c83000/0)
+![github-addkey-2](../assets/git15.png)
 
 为什么GitHub需要SSH Key呢？因为GitHub需要识别出你推送的提交确实是你推送的，而不是别人冒充的，而Git支持SSH协议，所以，GitHub只要知道了你的公钥，就可以确认只有你自己才能推送。
 
