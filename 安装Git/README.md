@@ -1,4 +1,4 @@
-# 第3章 安装Git
+# 第3章 安装Git {#陈冠杰}
 
 最早Git是在Linux上开发的，很长一段时间内，Git也只能在Linux和Unix系统上跑。不过，慢慢地有人把它移植到了Windows上。现在，Git可以在Linux、Unix、Mac和Windows这几大平台上正常运行了。
 
@@ -18,7 +18,7 @@ sudo apt-get install git
 
 如果你碰巧用Debian或Ubuntu Linux，通过一条sudo apt-get install git就可以直接完成Git的安装，非常简单。
 
-video：http://michaelliao.gitcafe.io/video/git-apt-install.mp4
+video：[http://michaelliao.gitcafe.io/video/git-apt-install.mp4](http://michaelliao.gitcafe.io/video/git-apt-install.mp4)
 
 老一点的Debian或Ubuntu Linux，要把命令改为sudo apt-get install git-core，因为以前有个软件也叫GIT（GNU Interactive Tools），结果Git就只能叫git-core了。由于Git名气实在太大，后来就把GNU Interactive Tools改成gnuit，git-core正式改为git。
 
@@ -28,9 +28,9 @@ video：http://michaelliao.gitcafe.io/video/git-apt-install.mp4
 
 如果你正在使用Mac做开发，有两种安装Git的方法。
 
-一是安装homebrew，然后通过homebrew安装Git，具体方法请参考homebrew的文档：http://brew.sh/。
+一是安装homebrew，然后通过homebrew安装Git，具体方法请参考homebrew的文档：[http://brew.sh/。](http://brew.sh/。)
 
-第二种方法更简单，也是推荐的方法，就是直接从AppStore安装Xcode，Xcode集成了Git，不过默认没有安装，你需要运行Xcode，选择菜单“Xcode”->“Preferences”，在弹出窗口中找到“Downloads”，选择“Command Line Tools”，点“Install”就可以完成安装了。
+第二种方法更简单，也是推荐的方法，就是直接从AppStore安装Xcode，Xcode集成了Git，不过默认没有安装，你需要运行Xcode，选择菜单“Xcode”-&gt;“Preferences”，在弹出窗口中找到“Downloads”，选择“Command Line Tools”，点“Install”就可以完成安装了。
 
 ![install-git-by-xcode](../assets/git4.jpg)
 
@@ -42,9 +42,9 @@ Xcode是Apple官方IDE，功能非常强大，是开发Mac和iOS App的必选装
 
 Windows下要使用很多Linux/Unix的工具时，需要Cygwin这样的模拟环境，Git也一样。Cygwin的安装和配置都比较复杂，就不建议你折腾了。不过，有高人已经把模拟环境和Git都打包好了，名叫msysgit，只需要下载一个单独的exe安装程序，其他什么也不用装，绝对好用。
 
-msysgit是Windows版的Git，从https://git-for-windows.github.io下载（网速慢的同学请移步国内镜像），然后按默认选项安装即可。
+msysgit是Windows版的Git，从[https://git-for-windows.github.io下载（网速慢的同学请移步国内镜像），然后按默认选项安装即可。](https://git-for-windows.github.io下载（网速慢的同学请移步国内镜像），然后按默认选项安装即可。)
 
-安装完成后，在开始菜单里找到“Git”->“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！
+安装完成后，在开始菜单里找到“Git”-&gt;“Git Bash”，蹦出一个类似命令行窗口的东西，就说明Git安装成功！
 
 ![install-git-on-windows](../assets/git5.jpg)
 
@@ -58,3 +58,4 @@ $ git config --global user.email "email@example.com"
 因为Git是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址。你也许会担心，如果有人故意冒充别人怎么办？这个不必担心，首先我们相信大家都是善良无知的群众，其次，真的有冒充的也是有办法可查的。
 
 注意git config命令的--global参数，用了这个参数，表示你这台机器上所有的Git仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址。
+
