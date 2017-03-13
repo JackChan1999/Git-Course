@@ -31,8 +31,7 @@
   * [9.2 配置别名](第9章 自定义Git/配置别名.md)
   * [9.3 搭建Git服务器](第9章 自定义Git/搭建Git服务器.md)
 * [第10章 期末总结](第10章 期末总结/README.md)
-* 从0开始学习 GitHub 系列
-  * [从0开始学习 GitHub 系列之「序言」](第11章 GitHub/从0开始学习 GitHub 系列之「序言」.md)
+* [第11章 从0开始学习GitHub](第11章 GitHub/从0开始学习 GitHub 系列之「序言」.md)
   * [01.初识 GitHub](第11章 GitHub/从0开始学习 GitHub 系列之「01.初识 GitHub」.md)
   * [02.加入 GitHub](第11章 GitHub/从0开始学习 GitHub 系列之「02.加入 GitHub」.md)
   * [03.Git 速成](第11章 GitHub/从0开始学习 GitHub 系列之「03.Git 速成」.md)
