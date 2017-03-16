@@ -44,3 +44,4 @@
   * [2016 Top 10 Android Library](第11章 GitHub/2016 Top 10 Android Library.md)
   * [GIT常用命令备忘](第11章 GitHub/GIT常用命令备忘.md)
   * [2016 年最受欢迎的编程语言是什么？](第11章 GitHub/2016 年最受欢迎的编程语言是什么？.md)
+  * [GitHub秘籍](第11章 GitHub/GitHub秘籍.md)
