@@ -1,7 +1,7 @@
-{ 
-"description": "Git和GitHub详细使用教程",
-"title" : "Git和GitHub使用教程",
-"language": "zh-hans",
-"author" : "AllenIverson",
-"gitbook": "3.2.2"
+{
+    "author": "AllenIverson",
+    "description": "Git和GitHub详细使用教程",
+    "gitbook": "3.2.2",
+    "language": "zh-hans",
+    "title": "Git和GitHub使用教程"
 }
