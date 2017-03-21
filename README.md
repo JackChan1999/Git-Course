@@ -1,4 +1,4 @@
-![git](https://alleniverson.gitbooks.io/gitcourse/content/assets/git0.jpg)
+![git](assets/git0.jpg)
 
 史上最浅显易懂的Git教程！
 
