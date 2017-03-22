@@ -62,7 +62,12 @@ git config --global alias.plm 'pull origin master'
 
 ![img](http://stormzhang.com/image/git_log.png)
 
-告诉大家一个比较屌的命令，输入**git log –graph –pretty=format:’%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset’ –abbrev-commit –date=relative **然后日志这样了：
+告诉大家一个比较屌的命令，输入
+
+```
+git log --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+```
+然后日志这样了：
 
 ![img](http://stormzhang.com/image/git_lg.png)
 
@@ -70,7 +75,6 @@ git config --global alias.plm 'pull origin master'
 
 ```
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
-
 ```
 
 这样以后直接输入 **git lg** 就行了。
