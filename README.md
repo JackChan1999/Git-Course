@@ -82,7 +82,7 @@ Git教程原文 - 廖雪峰的官方网站
   * [07.GitHub 常见的几种操作](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/从0开始学习%20GitHub%20系列之%e3%80%8c07.GitHub%20常见的几种操作%e3%80%8d)
   * [08.如何发现优秀的开源项目](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/从0开始学习%20GitHub%20系列之%e3%80%8c08.如何发现优秀的开源项目%e3%80%8d)
   * [使用GIT FLOW管理开发流程](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/使用GIT%20FLOW管理开发流程.html)
-  * [2016 Top 10 Android Library](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/2016%20Top%2010%20Android Library.html)
+  * [2016 Top 10 Android Library](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/2016%20Top%2010%20Android%20Library.html)
   * [GIT常用命令备忘](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/GIT常用命令备忘.html)
   * [2016 年最受欢迎的编程语言是什么？](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/2016%20年最受欢迎的编程语言是什么？.html)
   * [GitHub秘籍](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/GitHub秘籍.html)
