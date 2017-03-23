@@ -37,7 +37,7 @@ Git教程原文 - 廖雪峰的官方网站
 
 # 在线阅读
 
-**https://alleniverson.gitbooks.io/gitcourse/content**
+**https://alleniverson.gitbooks.io/gitcourse/content/**
 
 # 课程结构
 
@@ -53,6 +53,7 @@ Git教程原文 - 廖雪峰的官方网站
   * [4.3 管理修改](https://alleniverson.gitbooks.io/gitcourse/content/第4章%20时光机穿梭/管理修改.html)
   * [4.4 撤销修改](https://alleniverson.gitbooks.io/gitcourse/content/第4章%20时光机穿梭/撤销修改.html)
   * [4.5 删除文件](https://alleniverson.gitbooks.io/gitcourse/content/第4章%20时光机穿梭/删除文件.html)
+  * [4.6 让GitBisect帮助你](第4章 时光机穿梭/让GitBisect帮助你.md)
 * [第5章 远程仓库](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/README.html)
   * [5.1 添加远程仓库](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/添加远程仓库.html)
   * [5.2 从远程仓库克隆](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/从远程仓库克隆.html)
