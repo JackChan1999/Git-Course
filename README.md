@@ -57,7 +57,7 @@ Git教程原文 - 廖雪峰的官方网站
   * [4.3 管理修改](https://alleniverson.gitbooks.io/gitcourse/content/第4章%20时光机穿梭/管理修改.html)
   * [4.4 撤销修改](https://alleniverson.gitbooks.io/gitcourse/content/第4章%20时光机穿梭/撤销修改.html)
   * [4.5 删除文件](https://alleniverson.gitbooks.io/gitcourse/content/第4章%20时光机穿梭/删除文件.html)
-  * [4.6 让GitBisect帮助你](第4章 时光机穿梭/让GitBisect帮助你.md)
+  * [4.6 让GitBisect帮助你](https://alleniverson.gitbooks.io/gitcourse/content/第4章%20时光机穿梭/让GitBisect帮助你.html)
 
 * [第5章 远程仓库](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/README.html)
   * [5.1 添加远程仓库](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/添加远程仓库.html)
@@ -104,7 +104,7 @@ Git教程原文 - 廖雪峰的官方网站
   - Email：<815712739@qq.com>
   - CSDN博客：[Allen Iverson](http://blog.csdn.net/axi295309066)
   - 新浪微博：[AndroidDeveloper](http://weibo.com/u/1848214604?topnav=1&wvr=6&topsug=1&is_all=1)
-  - GitHub：[JackChen1999](https://github.com/JackChen1999)
+  - GitHub：[JackChan1999](https://github.com/JackChan1999)
   - GitBook：[alleniverson](https://www.gitbook.com/@alleniverson)
 
   如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！
