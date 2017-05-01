@@ -99,16 +99,17 @@ Git教程原文 - 廖雪峰的官方网站
   * [2016 年最受欢迎的编程语言是什么？](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/2016%20年最受欢迎的编程语言是什么？.html)
   * [GitHub秘籍](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/GitHub秘籍.html)
 
-  ## 关注我
+## 关注我
 
-  - Email：<815712739@qq.com>
-  - CSDN博客：[Allen Iverson](http://blog.csdn.net/axi295309066)
-  - 新浪微博：[AndroidDeveloper](http://weibo.com/u/1848214604?topnav=1&wvr=6&topsug=1&is_all=1)
-  - GitHub：[JackChan1999](https://github.com/JackChan1999)
-  - GitBook：[alleniverson](https://www.gitbook.com/@alleniverson)
+- Email：<815712739@qq.com>
+- CSDN博客：[Allen Iverson](http://blog.csdn.net/axi295309066)
+- 新浪微博：[AndroidDeveloper](http://weibo.com/u/1848214604?topnav=1&wvr=6&topsug=1&is_all=1)
+- GitHub：[JackChan1999](https://github.com/JackChan1999)
+- GitBook：[alleniverson](https://www.gitbook.com/@alleniverson)
+- 个人博客：[JackChan](https://jackchan1999.github.io/)
 
-  如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！
+如果觉得我的文章对您有用，请随意打赏。您的支持将鼓励我继续创作！
 
-  |                  微信赞赏支持                  |                 支付宝赞赏支持                  |
-  | :--------------------------------------: | :--------------------------------------: |
-  | <img src="assets/weixin.png" width="300" /> | <img src="assets/支付宝.jpg" width="300" /> |
+|                  微信赞赏支持                  |                 支付宝赞赏支持                  |
+| :--------------------------------------: | :--------------------------------------: |
+| <img src="assets/weixin.png" width="300" /> | <img src="assets/支付宝.jpg" width="300" /> |
