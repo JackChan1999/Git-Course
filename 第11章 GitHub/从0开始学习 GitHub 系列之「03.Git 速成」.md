@@ -1,3 +1,5 @@
+# 从0开始学习 GitHub 系列之「03.Git 速成」
+
 前面的 GitHub 系列文章介绍过，GitHub 是基于 [Git](http://lib.csdn.net/base/git) 的，所以也就意味着 Git 是基础，如果你不会 Git ，那么接下来你完全继续不下去，所以今天的教程就来说说 Git ，当然关于 Git 的知识单凭一篇文章肯定说不完的，我这篇文章先介绍一些最基本的、最常用的一些 Git 知识，争取让你们 Git 速成。
 
 ## 1. 什么是Git？
@@ -42,8 +44,8 @@ Git 所有的操作命令开头都要以 git 开头，上面列举了最常用�
 
 第一步，我们先新建一个文件夹，在文件夹里新建一个文件（我是用 Linux 命令去新建的，Windows用户可以自己手动新建）
 
-mkdir test （创建文件夹test） 
-cd test （切换到test目录） 
+mkdir test （创建文件夹test）
+cd test （切换到test目录）
 touch a.md （新建a.md文件）
 
 这里提醒下：在进行任何 Git 操作之前，都要先切换到 Git 仓库目录，也就是先要先切换到项目的文件夹目录下。

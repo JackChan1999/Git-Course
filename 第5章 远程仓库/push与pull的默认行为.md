@@ -101,6 +101,7 @@ git config branch.develop.merge refs/heads/develop
 ------
 
 [1] 为什么merge = refs/heads/develop 而不是refs/remotes/develop?
+
 因为这里merge指代的是我们想要merge的远程分支，是remote上的refs/heads/develop，文中即是origin上的refs/heads/develop，这和我们在本地直接执行`git merge`是不同的(本地执行`git merge origin/develop`则是直接merge refs/remotes/develop)。
 
 ----

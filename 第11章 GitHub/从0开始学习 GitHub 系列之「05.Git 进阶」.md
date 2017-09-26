@@ -1,3 +1,5 @@
+# 从0开始学习 GitHub 系列之「05.Git 进阶」
+
 关于 [Git](http://lib.csdn.net/base/git) 相信大家看了之前一系列的文章已经初步会使用了， 但是关于Git还有很多知识与技巧是你不知道的，今天就来给大家介绍下一些 Git 进阶的知识。
 
 ## 1. 用户名和邮箱
@@ -112,7 +114,7 @@ diff命令算是很常用的，使用场景是我们经常在做代码改动，�
 
 ```bash
 git diff <$id1> <$id2>   # 比较两次提交之间的差异
-git diff <branch1>..<branch2> # 在两个分支之间比较 
+git diff <branch1>..<branch2> # 在两个分支之间比较
 git diff --staged   # 比较暂存区和版本库差异
 ```
 

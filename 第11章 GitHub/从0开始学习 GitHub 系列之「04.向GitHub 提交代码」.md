@@ -1,10 +1,12 @@
+# 从0开始学习 GitHub 系列之「04.向GitHub 提交代码」
+
 之前的这篇文章「[从0开始学习 GitHub 系列之「Git速成」](http://stormzhang.com/github/2016/05/30/learn-github-from-zero3/)」相信大家都已经对 [Git](http://lib.csdn.net/base/git) 的基本操作熟悉了，但是这篇文章只介绍了对本地 Git 仓库的基本操作，今天我就来介绍下如何跟远程仓库一起协作，教你们向 GitHub 上提交你们的第一行代码！
 
 ## 1. SSH
 
 你拥有了一个 GitHub 账号之后，就可以自由的 clone 或者下载其他项目，也可以创建自己的项目，但是你没法提交代码。仔细想想也知道，肯定不可能随意就能提交代码的，如果随意可以提交代码，那么 GitHub 上的项目岂不乱了套了，所以提交代码之前一定是需要某种授权的，而 GitHub 上一般都是基于 SSH 授权的。
 
-那么什么是 SSH 呢？ 
+那么什么是 SSH 呢？
 
 简单点说，SSH是一种网络协议，用于计算机之间的加密登录。目前是每一台 [Linux](http://lib.csdn.net/base/linux) 电脑的标准配置。而大多数 Git 服务器都会选择使用 SSH 公钥来进行授权，所以想要在 GitHub 提交代码的第一步就是要先添加 SSH key 配置。
 
@@ -90,7 +92,7 @@ git push origin master
 
 ![GitHub](http://stormzhang.com/image/test_clone.png)
 
-关联本地已有项目 
+关联本地已有项目
 如果我们本地已经有一个完整的 git 仓库，并且已经进行了很多次 commit ，这个时候第一种方法就不适合了。
 
 假设我们本地有个 test2 的项目，我们需要的是在 GitHub 上建一个 test 的项目，然后把本地 test2 上的所有代码 commit 记录提交到 GitHub 上的 test 项目。
