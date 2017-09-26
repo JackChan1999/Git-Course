@@ -18,6 +18,8 @@ Linux 与 Mac 都是默认安装了 SSH ，而 Windows 系统安装了 Git Bash 
 
 Linux/Mac 系统 在 **~/.ssh** 下，win系统在 **/c/Documents and Settings/username/.ssh** 下，都是隐藏文件，相信你们有办法查看的。
 
+![](images/ssh_01.png)
+
 接下来要做的是把 id_rsa.pub 的内容添加到 GitHub 上，这样你本地的 id_rsa 密钥跟 GitHub 上的 id_rsa.pub 公钥进行配对，授权成功才可以提交代码。
 
 ## 3. GitHub 上添加 SSH key
@@ -47,6 +49,8 @@ SSH key 添加成功之后，输入 **ssh -T git@github.com** 进行[测试](htt
 
 ![GitHub](http://stormzhang.com/image/ssh_test.png)
 
+![](images/ssh_02.png)
+
 ## 4. Push & Pull
 
 在提交代码之前我们先要了解两个命令，也是上次的文章没有介绍的，因为这两个命令需要跟远程仓库配合。
@@ -67,8 +71,8 @@ Pull：直译过来就是「拉」的意思，如果别人提交代码到远程�
 
 添加 SSH key 成功之后，我们就有权限向 GitHub 上我们自己的项目提交代码了，而提交代码有两种方法：
 
-Clone自己的项目 
-我们以我在 GitHub 上创建的 test 项目为例，执行如下命令：
+Clone自己的项目		
+我以我在 GitHub 上创建的 test 项目为例，执行如下命令：
 
 ```bash
 git clone git@github.com:stormzhang/test.git
