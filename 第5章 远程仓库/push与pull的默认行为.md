@@ -1,3 +1,5 @@
+# 5.3 Git push与pull的默认行为
+
 一直以来对`git push`与`git pull`命令的默认行为感觉混乱，今天抽空总结下。
 
 ## git push
@@ -73,7 +75,7 @@ If you wish to set tracking information for this branch you can do so with:
 
 ```
 git branch --set-upstream-to=origin/<branch> develop
-// 或者git push --set-upstream origin develop 
+// 或者git push --set-upstream origin develop
 ```
 
 实际上，如果我们没有指定upstream，git在merge时会访问git config中当前分支(develop)merge的默认配置，我们可以通过配置下面的内容指定某个分支的默认merge操作
@@ -110,13 +112,13 @@ git config branch.develop.merge refs/heads/develop
 ![](images/push.png)
 
 ```
-warning: push.default is unset; its implicit value is changing in 
-Git 2.0 from 'matching' to 'simple'. To squelch this message 
-and maintain the current behavior after the default changes, use: 
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
 
   git config --global push.default matching
 
-To squelch this message and adopt the new behavior now, use: 
+To squelch this message and adopt the new behavior now, use:
 
   git config --global push.default simple
 
