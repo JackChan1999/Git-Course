@@ -16,13 +16,13 @@
 
 先去 GitHub 官网「How people build software · GitHub」注册「Sign Up」个账号，注册页面如下：
 
-![img](http://stormzhang.com/image/join_github1.png)
+![GitHub](http://stormzhang.com/image/join_github1.png)
 
 这个应该没啥说的，需要填用户名、邮箱、密码，值得一提的用户名请不要那么随便，最好取的这个名字就是你以后常用的用户名了，也强烈建议你各大社交账号都用一样的用户名，这样识别度较高，比如我的博客域名、GitHub、知乎等其他社交账号 ID 都是 stormzhang ，微博是因为被占用了，无奈换了个id，而且这个用户名以后在 GitHub 搭建博客的时候默认给你生成的博客地址就是 [http://username.github.io](http://username.github.io/) ，所以给自己取个好点的用户名吧。
 
 填好用户名、邮箱、密码紧接着到这一步：
 
-![img](http://stormzhang.com/image/join_github2.png)
+![GitHub](http://stormzhang.com/image/join_github2.png)
 
 这个是什么意思呢？GitHub 有两种，一种是公开，这种是免费的，就是你创建的项目是开放的，所有人都能看得到；另一种是私有，这种是收费的，这种一般是很多企业在使用 GitHub 的私有仓库在托管自己的项目，这也是 GitHub 的一种盈利模式对于个人你就直接默认选择公开的就行了。
 
@@ -30,7 +30,7 @@
 
 注册成功之后你会到 GitHub 的主页面来：
 
-![img](http://stormzhang.com/image/github_home.png)
+![GitHub](http://stormzhang.com/image/github_home.png)
 
 你如果是新注册的可能看到的跟我不一样，因为你们新用户，没有自己的项目，没有关注的人，所以只有一个导航栏。
 
@@ -44,11 +44,11 @@
 
 点击下图的 Your profile 菜单进入到你的个人 GitHub 主页。
 
-![img](http://stormzhang.com/image/github_home2.png)
+![GitHub](http://stormzhang.com/image/github_home2.png)
 
 还是以我的 GitHub 主页为例：
 
-![img](http://stormzhang.com/image/github_account.png)
+![GitHub](http://stormzhang.com/image/github_account.png)
 
 这么详细应该不会看不懂吧？只不过你的账号可能没有这么丰富，因为你可能啥也没做过，但是如果做全了基本上就会看到跟我一样的了。
 
@@ -56,11 +56,11 @@
 
 如果你是新注册的 GitHub 账号，是不是觉得很简陋？虽然你没有自己的项目，但是第一步起码要先完善自己的信息，点击如下的 Settings 菜单：
 
-![img](http://stormzhang.com/image/github_setting.png)
+![GitHub](http://stormzhang.com/image/github_setting.png)
 
 到设置页面来设置一些基本信息：
 
-![img](http://stormzhang.com/image/github_profile.png)
+![GitHub](http://stormzhang.com/image/github_profile.png)
 
 像头像、Name 建议要设置一个常用的，这两个很有识别性，公开的邮箱也要设置一个，这样那些企业啊、猎头啊就通过这个公开邮箱去联系你，友情提醒：别在 GitHub 把自己的 QQ 邮箱放上去，不显得太 low 了么？没有 gmail 邮箱，起码也得注册个 foxmail、163 邮箱之类的吧。
 
@@ -100,11 +100,11 @@
 
 点击顶部导航栏的 + 可以快速创建一个项目，如下图：
 
-![img](http://stormzhang.com/image/create_repo.png)
+![GitHub](http://stormzhang.com/image/create_repo.png)
 
 创建一个项目需要填写如上的几部分：项目名、项目描述与简单的介绍，你不付费没法选择私有的，所以接着只能选择 public 的，之后勾选「Initialize this repository with a README」，这样你就拥有了你的第一个 GitHub 项目：
 
-![img](http://stormzhang.com/image/init_repo.png)
+![GitHub](http://stormzhang.com/image/init_repo.png)
 
 可以看到这个项目只包含了一个 README.md 文件，但是它已经是一个完整的 Git 仓库了，你可以通过对它进行一些操作，如watch、star、fork，还可以 clone 或者下载下来。
 

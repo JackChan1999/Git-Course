@@ -4,7 +4,7 @@
 
 ![Diff without whitespace](../assets/github1.png)
 
-[*详见 GitHub secrets.*](https://github.com/blog/967-github-secrets)
+[详见 GitHub secrets.](https://github.com/blog/967-github-secrets)
 
 # 调整 Tab 字符所代表的空格数
 在 diff 或文件的 URL 后面加上 `?ts=4` ，这样当显示 tab 字符的长度时就会是 4 个空格的长度，不再是默认的 8 个空格。 `ts` 后面的数字还可以根据你个人的偏好进行修改。这个技巧不适用于 Gists，或者以 Raw 格式查看文件， 但有浏览器扩展插件可以帮你自动调整: [Chrome 扩展](https://chrome.google.com/webstore/detail/github-tab-size/ofjbgncegkdemndciafljngjbdpfmbkn) ， [Opera 扩展](https://addons.opera.com/en/extensions/details/github-tab-size/)。
@@ -26,7 +26,7 @@ https://github.com/rails/rails/commits/master?author=dhh
 
 ![DHH commit history](../assets/github4.png)
 
-[*深入了解提交视图之间的区别*](https://help.github.com/articles/differences-between-commit-views)
+[深入了解提交视图之间的区别](https://help.github.com/articles/differences-between-commit-views)
 
 # 仓库克隆
 当克隆仓库时可以不要那个`.git`后缀。
@@ -35,7 +35,7 @@ https://github.com/rails/rails/commits/master?author=dhh
 $ git clone https://github.com/tiimgreen/github-cheat-sheet
 ```
 
-[*更多对 Git `clone` 命令的介绍.*](http://git-scm.com/docs/git-clone)
+[更多对 Git `clone` 命令的介绍.](http://git-scm.com/docs/git-clone)
 
 #分支
 ##将某个分支与其他所有分支进行对比
@@ -222,12 +222,12 @@ $ git commit -m "Fix screwup, fixes #12"
 # Markdown 文件语法高亮
 例如，可以像下面这样在你的 Markdown 文件里为 Ruby 代码添加语法高亮：
 
-    ​```ruby
-    require 'tabbit'
-    table = Tabbit.new('Name', 'Email')
-    table.add_row('Tim Green', 'tiimgreen@gmail.com')
-    puts table.to_s
-    ​```
+```ruby
+require 'tabbit'
+table = Tabbit.new('Name', 'Email')
+table.add_row('Tim Green', 'tiimgreen@gmail.com')
+puts table.to_s
+```
 
 效果如下：
 
@@ -452,7 +452,7 @@ https://github.com/tiimgreen/github-cheat-sheet/pull/15.patch
 ```
 `.diff` 扩展会使用普通文本格式显示如下内容：
 
-```
+```bash
 diff --git a/README.md b/README.md
 index 88fcf69..8614873 100644
 --- a/README.md

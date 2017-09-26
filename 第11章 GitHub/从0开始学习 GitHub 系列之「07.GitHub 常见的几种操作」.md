@@ -10,7 +10,7 @@
 
 然后看到如下的项目主页：
 
-![img](http://stormzhang.com/image/github_project_home.png)
+![GitHub](http://stormzhang.com/image/github_project_home.png)
 
 可以看到一个项目可以进行的操作主要就是两部分，第一部分包括 Watch、Star、Fork ，这三个操作之前的系列介绍过了，这里就不啰嗦了。
 
@@ -24,7 +24,7 @@
 
 Issues 代表该项目的一些问题或者 bug，并不是说 Issues 越少越好，Issues 被解决的越多说明项目作者或者组织响应很积极，也说明该开源项目的作者很重视该项目。我们来看下 Retrofit 的 Issues 主页，截至目前 close（解决） 了 1305 个 Issue，open （待解决）状态的有 37 个，这解决问题的比例与速度值得每位开源项目的作者学习。
 
-![img](http://stormzhang.com/image/github_issues.png)
+![GitHub](http://stormzhang.com/image/github_issues.png)
 
 同样的，大家在使用一些开源项目有问题的时候都可以提 Issue，可以通过点击右上角的 New Issue 来新建 Issue，需要添加一个标题与描述就可以了，这个操作很简单。
 
@@ -40,7 +40,7 @@ Issues 代表该项目的一些问题或者 bug，并不是说 Issues 越少越�
 
 Fork 之后，在账号 googdev 下多了一个 9GAG 的项目，截图显示如下：
 
-![img](http://stormzhang.com/image/github_fork.png)
+![GitHub](http://stormzhang.com/image/github_fork.png)
 
 可以看到 Fork 过来的项目标题底部会显示一行小字：fork from stormzhang/9GAG ，除此之外，项目代码跟原项目一模一样，对于原项目来说，相当于别人新建了一个分支而已。
 
@@ -52,11 +52,11 @@ Fork 之后，在账号 googdev 下多了一个 9GAG 的项目，截图显示如
 
 第三步，点击你 Fork 过来的项目主页的 Pull requests 页面，
 
-![img](http://stormzhang.com/image/github_new_pr.png)
+![GitHub](http://stormzhang.com/image/github_new_pr.png)
 
 点击 New pull request 按钮紧接着到如下页面：
 
-![img](http://stormzhang.com/image/github_compare_pr.png)
+![GitHub](http://stormzhang.com/image/github_compare_pr.png)
 
 这个页面自动会比较该项目与原有项目的不同之处，最顶部声明了是 stormzhang/9GAG 项目的 master 分支与你 fork 过来的 googdev/9GAG 项目 master 分支所做的比较。
 
@@ -74,7 +74,7 @@ Fork 之后，在账号 googdev 下多了一个 9GAG 的项目，截图显示如
 
 一般来说，我们项目的主页有 README.me 基本就够了，但是有些时候我们项目的一些用法很复杂，需要有详细的使用说明文档给开源项目的使用者，这个时候就用到了 Wiki。
 
-![img](http://stormzhang.com/image/github_wiki.png)
+![GitHub](http://stormzhang.com/image/github_wiki.png)
 
 使用起来也很简单，直接 New Page ，然后使用 markdown 语法即可进行编写。
 
@@ -84,19 +84,19 @@ Pulse 可以理解成该项目的活跃汇总。包括近期该仓库创建了�
 
 根据这个页面，用户可以判断该项目受关注程度以及项目作者是否还在积极参与解决这些问题等。
 
-![img](http://stormzhang.com/image/github_pulse.png)
+![GitHub](http://stormzhang.com/image/github_pulse.png)
 
 - Graphs
 
 Graphs 是以图表的形式来展示该项目的一个整体情况。比如项目的全部贡献人，比如 commits 的围度分析，比如某天代码提交的频繁程度等。
 
-![img](http://stormzhang.com/image/github_graphs.png)
+![GitHub](http://stormzhang.com/image/github_graphs.png)
 
 - Settings
 
 如果一个项目是自己的，那么你会发现会多一个菜单 Settings，这里包括了你对整个项目的设置信息，比如对项目重命名，比如删除该项目，比如关闭项目的 Wiki 和 Issues 功能等，不过大部分情况下我们都不需要对这些设置做更改。感兴趣的，可以自行看下这里的设置有哪些功能。
 
-![img](http://stormzhang.com/image/github_settings.png)
+![GitHub](http://stormzhang.com/image/github_settings.png)
 
 以上就包含了一个 GitHub 项目的所有操作，相信大家看完之后对 GitHub 上一些常用的操作都熟悉了，从现在开始，请一起参与到开源社区中来吧，开源社区需要我们每个人都贡献一份力，这样开源社区才能越来越强大，也才能对更多的人有帮助！
 

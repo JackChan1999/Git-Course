@@ -8,7 +8,7 @@
 
 如何参与一个开源项目呢？比如人气极高的bootstrap项目，这是一个非常强大的CSS框架，你可以访问它的项目主页https://github.com/twbs/bootstrap，点“Fork”就在自己的账号下克隆了一个bootstrap仓库，然后，从自己的账号下clone：
 
-```
+```&lt;
 git clone git@github.com:michaelliao/bootstrap.git
 ```
 

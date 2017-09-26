@@ -68,7 +68,7 @@
 
 准确的说 Git Flow 是一种比较成熟的分支管理流程，我们先看一张图能清晰的描述他整个的工作流程：
 
-![图片描述](http://stormzhang.com/image/gitflow.png)
+![GitHub](http://stormzhang.com/image/gitflow.png)
 
 第一次看上面那个图是不是一脸懵逼？跟我当时一样，不急，我来用简单的话给你们解释下。
 

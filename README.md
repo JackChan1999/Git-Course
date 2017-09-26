@@ -26,7 +26,7 @@ Git教程原文 - 廖雪峰的官方网站
 
 - [Pro Git 中文版](https://alleniverson.gitbooks.io/gitcourse/content/https://www.gitbook.com/book/0532/progit/details)
 - [Pro Git 第二版 简体中文](https://alleniverson.gitbooks.io/gitcourse/content/https://www.gitbook.com/book/bingohuang/progit2/details)
-- [从 0 开始学习%20GitHub](https://alleniverson.gitbooks.io/gitcourse/content/https://www.gitbook.com/book/stormzhang/learn-github-from-zero/details)
+- [从 0 开始学习GitHub](https://alleniverson.gitbooks.io/gitcourse/content/https://www.gitbook.com/book/stormzhang/learn-github-from-zero/details)
 - [github-cheat-sheet GitHub秘籍](https://alleniverson.gitbooks.io/gitcourse/content/https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.html)
 
 ## Github托管主页
@@ -35,7 +35,9 @@ Git教程原文 - 廖雪峰的官方网站
 
 请读者点击Star进行关注并支持！
 
-## 在线阅读
+## GitBook在线阅读
+
+在线阅读，PDF、ePub、Mobi电子书下载
 
 **https://alleniverson.gitbooks.io/gitcourse/content/**
 
@@ -101,7 +103,7 @@ Git教程原文 - 廖雪峰的官方网站
 
 ## 关注我
 
-- Email：<815712739@qq.com>
+- Email：<619888095@qq.com>
 - CSDN博客：[Allen Iverson](http://blog.csdn.net/axi295309066)
 - 新浪微博：[AndroidDeveloper](http://weibo.com/u/1848214604?topnav=1&wvr=6&topsug=1&is_all=1)
 - GitHub：[JackChan1999](https://github.com/JackChan1999)

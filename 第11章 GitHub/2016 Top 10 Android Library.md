@@ -62,7 +62,7 @@ EventBus 是一个事件管理平台，以事件驱动的方式来简化事件�
 
 说到 Realm 不得不提到一个 ORM 的概念。何为 ORM 呢？ORM 是 Object Relation Mapping 的缩写，翻译过来就是对象关系映射。这是相对于[数据库](http://lib.csdn.net/base/mysql)的，我们知道 Android 中使用的数据库是 SQLite，而且 Android SDK 自带操作数据库的接口，而实际我们在使用的过程往往需要把查询的数据转换到一个 [Java ](http://lib.csdn.net/base/java)Object，也就是所谓的 Model，比如一般是这样：
 
-```
+```java
 public User selectWithId(int id) {
     User user = null;
     Cursor cursor = db.rawQuery("select * from users where id = ?", new String[]{id});
@@ -74,19 +74,19 @@ public User selectWithId(int id) {
         cursor.close();
     }
     return user;
-}123456789101112123456789101112
+}
 ```
 
 操作起来是不是很麻烦？而且可读性超差，而有了 ORM 我们写代码可能会是类似这样：
 
 查询数据是这样：
 
-```
+```java
 public User getUserById(int id) {
     return RealmResults<User> pups = realm.where(User.class)
                                .lessThan("id", 2)
                                .findAll();
-}1234512345
+}
 ```
 
 是不是非常方便？代码写起来更像是面向对象，而不是一个个的裸写 SQL 了，这就是所谓的 ORM。

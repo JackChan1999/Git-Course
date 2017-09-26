@@ -34,7 +34,7 @@ Git 是 [Linux](http://lib.csdn.net/base/linux) 发明者 Linus 开发的一款�
 
 怎么判断你 Git 有没有安装成功？请在命令行里输入 git ，如果出现以下提示证明你已经安装成功了。
 
-![img](http://stormzhang.com/image/git1.png)
+![Git命令](http://stormzhang.com/image/git1.png)
 
 Git 所有的操作命令开头都要以 git 开头，上面列举了最常用的一些 Git 命令，紧接着会有一句英文解释这个命令的意义，都不是很难的单词，不妨试着看一下，不过没有实际操作你仍然不好理解，下面我们来以一个实际的操作来介绍下一些常用命令的含义。
 
@@ -50,7 +50,7 @@ touch a.md （新建a.md文件）
 
 这个时候我们先随便操作一个命令，比如 git status ，可以看到如下提示（别纠结颜色之类的，配置与主题不一样而已）：
 
-![img](http://stormzhang.com/image/git2.png)
+![Git命令](http://stormzhang.com/image/git2.png)
 
 意思就是当前目录还不是一个 Git 仓库。
 
@@ -58,7 +58,7 @@ touch a.md （新建a.md文件）
 
 这个时候用到了第一个命令，代表初始化 git 仓库，输入 git init 之后会提示：
 
-![img](http://stormzhang.com/image/git3.png)
+![Git命令](http://stormzhang.com/image/git3.png)
 
 可以看到初始化成了，至此 test 目录已经是一个 git 仓库了。
 
@@ -66,7 +66,7 @@ touch a.md （新建a.md文件）
 
 紧接着我们输入 git status 命令，会有如下提示：
 
-![img](http://stormzhang.com/image/git4.png)
+![Git命令](http://stormzhang.com/image/git4.png)
 
 默认就直接在 master 分支，关于分支的概念后面会提，这时最主要的是提示 a.md 文件 Untracked files ，就是说 a.md 这个文件还没有被跟踪，还没有提交在 git 仓库里呢，而且提示你可以使用 git add 去操作你想要提交的文件。
 
@@ -76,7 +76,7 @@ git status 这个命令顾名思义就是查看状态，这个命令可以算是
 
 上面提示 a.md 文件还没有提交到 git 仓库里，这个时候我们可以随便编辑下 a.md 文件，然后输入 git add a.md ，然后再输入 git status :
 
-![img](http://stormzhang.com/image/git5.png)
+![Git命令](http://stormzhang.com/image/git5.png)
 
 此时提示以下文件 Changes to be committed ， 意思就是 a.md 文件等待被提交，当然你可以使用 git rm –cached 这个命令去移除这个缓存。
 
@@ -90,7 +90,7 @@ git status 这个命令顾名思义就是查看状态，这个命令可以算是
 
 这个时候我们输入 git log 命令，会看到如下：
 
-![img](http://stormzhang.com/image/git6.png)
+![Git命令](http://stormzhang.com/image/git6.png)
 
 git log 命令可以查看所有产生的 commit 记录，所以可以看到已经产生了一条 commit 记录，而提交时候的附带信息叫 ‘first commit’ 。
 
@@ -104,11 +104,11 @@ branch 即分支的意思，分支的概念很重要，尤其是团队协作的�
 
 执行 git init 初始化git仓库之后会默认生成一个主分支 master ，也是你所在的默认分支，也基本是实际开发正式环境下的分支，一般情况下 master 分支不会轻易直接在上面操作的，你们可以输入 git branch 查看下当前分支情况：
 
-![img](http://stormzhang.com/image/git7.png)
+![Git命令](http://stormzhang.com/image/git7.png)
 
 如果我们想在此基础上新建一个分支呢，很简单，执行 git branch a 就新建了一个名字叫 a 的分支，这时候分支 a 跟分支 master 是一模一样的内容，我们再输入 git branch 查看的当前分支情况：
 
-![img](http://stormzhang.com/image/git8.png)
+![Git命令](http://stormzhang.com/image/git8.png)
 
 但是可以看到 master 分支前有个 * 号，即虽然新建了一个 a 的分支，但是当前所在的分支还是在 master 上，如果我们想在 a 分支上进行开发，首先要先切换到 a 分支上才行，所以下一步要切换分支
 
@@ -116,7 +116,7 @@ git checkout a
 
 执行这个命令，然后再输入 git branch 查看下分支情况：
 
-![img](http://stormzhang.com/image/git9.png)
+![Git命令](http://stormzhang.com/image/git9.png)
 
 可以看到当前我们在的分支已经是a了，这个时候 A 同学就可以尽情的在他新建的a分支去进行代码改动了。
 
@@ -144,7 +144,7 @@ A同学在a分支代码写的不亦乐乎，终于他的功能完工了，并且
 
 所以如果想要新建一个标签很简单，比如 git tag v1.0 就代表我在当前代码状态下新建了一个v1.0的标签，输入 git tag 可以查看历史 tag 记录。
 
-![img](http://stormzhang.com/image/git10.png)
+![Git命令](http://stormzhang.com/image/git10.png)
 
 可以看到我新建了两个标签 v1.0、v1.1。
 
