@@ -65,7 +65,7 @@ Git教程原文 - 廖雪峰的官方网站
 * [第5章 远程仓库](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/README.html)
   * [5.1 添加远程仓库](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/添加远程仓库.html)
   * [5.2 从远程仓库克隆](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/从远程仓库克隆.html)
-  * [5.3 Git push与pull的默认行为](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/Git%20push与pull的默认行为.html)
+  * [5.3 Git push与pull的默认行为](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/push与pull的默认行为.html)
 
 * [第6章 分支管理](https://alleniverson.gitbooks.io/gitcourse/content/第6章%20分支管理/README.html)
   * [6.1 创建与合并分支](https://alleniverson.gitbooks.io/gitcourse/content/第6章%20分支管理/创建与合并分支.html)
