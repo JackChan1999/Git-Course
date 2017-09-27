@@ -57,7 +57,7 @@ git config --global alias.plm 'pull origin master'
 
 另外这里给大家推荐一个很强大的 alias 命令，我们知道我们输入 **git log** 查看日志的时候是类似这样的：
 
-![Git进阶](http://stormzhang.com/image/git_log.png)
+![Git进阶](images/github_32.png)
 
 告诉大家一个比较屌的命令，输入
 
@@ -66,7 +66,7 @@ git log --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yello
 ```
 然后日志这样了：
 
-![Git进阶](http://stormzhang.com/image/git_lg.png)
+![Git进阶](images/github_33.png)
 
 是不是比较清晰，整个分支的走向也很明确，但是每次都要输这么一大串是不是也很烦？这时候你就该想到 alias 啊：
 
@@ -104,7 +104,7 @@ git config --global core.quotepath false # 设置显示中文文件名
 
 diff命令算是很常用的，使用场景是我们经常在做代码改动，但是有的时候2天前的代码了，做了哪些改动都忘记了，在提交之前需要确认下，这个时候就可以用diff来查看你到底做了哪些改动，举个例子，比如我有一个 a.md 的文件，我现在做了一些改动，然后输入 **git diff** 就会看到如下：
 
-![Git进阶](http://stormzhang.com/image/git_diff.png)
+![Git进阶](images/github_34.png)
 
 红色的部分前面有个 **-** 代表我删除的，绿色的部分前面有个 **+** 代表我增加的，所以从这里你们很一目了然的知道我到底对这个文件做了哪些改动。
 
@@ -211,7 +211,7 @@ git rebase featureA
 
 假设这样一个场景，A和B两位同学各自开了两个分支来开发不同的功能，大部分情况下都会尽量互不干扰的，但是有一个需求A需要改动一个基础库中的一个类的方法，不巧B这个时候由于业务需要也改动了基础库的这个方法，因为这种情况比较特殊，A和B都认为不会对地方造成影响，等两人各自把功能做完了，需要合并的到主分支 master 的时候，我们假设先合并A的分支，这个时候没问题的，之后再继续合并B的分支，这个时候想想也知道就有冲突了，因为A和B两个人同时更改了同一个地方，Git 本身他没法判断你们两个谁更改的对，但是这个时候他会智能的提示有 **conflicts** ，需要手动解决这个冲突之后再重新进行一次 commit 提交。我随便在项目搞了一个冲突做下示例：
 
-![Git进阶](http://stormzhang.com/image/git_conflicts.png)
+![Git进阶](images/github_35.png)
 
 以上截图里就是冲突的示例，冲突的地方由 **====** 分出了上下两个部分，上部分一个叫 **HEAD** 的字样代表是我当前所在分支的代码，下半部分是一个叫 **baidu_activity** 分支的代码，可以看到 **HEAD** 对 gradle 插件进行了升级，同时新增了一个插件，所以我们很容易判断哪些代码该保留，哪些代码该删除，我们只需要移除掉那些老旧代码，而且同时也要把那些 **<<< HEAD**、**====** 以及 **>>>>>>baidu_activity** 这些标记符号也一并删除，最后进行一次 commit 就ok了。
 

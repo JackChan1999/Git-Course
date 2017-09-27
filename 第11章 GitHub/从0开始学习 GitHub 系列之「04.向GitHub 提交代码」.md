@@ -14,13 +14,13 @@
 
 Linux 与 Mac 都是默认安装了 SSH ，而 Windows 系统安装了 Git Bash 应该也是带了 SSH 的。大家可以在终端（win下在 Git Bash 里）输入 ssh 如果出现以下提示证明你本机已经安装 SSH， 否则请搜索自行安装下。
 
-![GitHub](http://stormzhang.com/image/ssh.png)
+![GitHub](images/github_25.jpg)
 
 紧接着输入 **ssh-keygen -t rsa** ，什么意思呢？就是指定 rsa [算法](http://lib.csdn.net/base/datastructure)生成密钥，接着连续三个回车键（不需要输入密码），然后就会生成两个文件 id_rsa 和 id_rsa.pub ，而 id_rsa 是密钥，id_rsa.pub 就是公钥。这两文件默认分别在如下目录里生成：
 
 Linux/Mac 系统 在 **~/.ssh** 下，win系统在 **/c/Documents and Settings/username/.ssh** 下，都是隐藏文件，相信你们有办法查看的。
 
-![](images/ssh_01.png)
+![](images/github_26.jpg)
 
 接下来要做的是把 id_rsa.pub 的内容添加到 GitHub 上，这样你本地的 id_rsa 密钥跟 GitHub 上的 id_rsa.pub 公钥进行配对，授权成功才可以提交代码。
 
@@ -28,11 +28,11 @@ Linux/Mac 系统 在 **~/.ssh** 下，win系统在 **/c/Documents and Settings/u
 
 第一步先在 GitHub 上的设置页面，点击最左侧 SSH and GPG keys ：
 
-![GitHub](http://stormzhang.com/image/github_sshkey.png)
+![GitHub](images/github_27.jpg)
 
 然后点击右上角的 New SSH key 按钮：
 
-![GitHub](http://stormzhang.com/image/github_ssh2.png)
+![GitHub](images/github_28.jpg)
 
 需要做的只是在 Key 那栏把 id_rsa.pub 公钥文件里的内容复制粘贴进去就可以了（上述示例为了安全粘贴的公钥是无效的），Title 那栏不需要填写，点击 Add SSH key 按钮就ok了。
 
@@ -49,9 +49,9 @@ Windows用户，设置显示隐藏文件，可以使用 EditPlus 或者 Sublime 
 
 SSH key 添加成功之后，输入 **ssh -T git@github.com** 进行[测试](http://lib.csdn.net/base/softwaretest)，如果出现以下提示证明添加成功了。
 
-![GitHub](http://stormzhang.com/image/ssh_test.png)
+![GitHub](images/github_29.jpg)
 
-![](images/ssh_02.png)
+![GitHub](images/github_30.jpg)
 
 ## 4. Push & Pull
 
@@ -90,7 +90,7 @@ git push origin master
 
 至于怎么获取项目的仓库地址呢？如下图：
 
-![GitHub](http://stormzhang.com/image/test_clone.png)
+![GitHub](images/github_31.jpg)
 
 关联本地已有项目
 如果我们本地已经有一个完整的 git 仓库，并且已经进行了很多次 commit ，这个时候第一种方法就不适合了。
