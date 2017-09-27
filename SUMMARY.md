@@ -43,7 +43,7 @@
   * [07.GitHub 常见的几种操作](第11章 GitHub/从0开始学习 GitHub 系列之「07.GitHub 常见的几种操作」.md)
   * [08.如何发现优秀的开源项目](第11章 GitHub/从0开始学习 GitHub 系列之「08.如何发现优秀的开源项目」.md)
   * [使用GIT FLOW管理开发流程](第11章 GitHub/使用GIT FLOW管理开发流程.md)
-  * [2016 Top 10 Android Library](第11章 GitHub/2016 Top 10 Android Library.md)
   * [GIT常用命令备忘](第11章 GitHub/GIT常用命令备忘.md)
+  * [2016 Top 10 Android Library](第11章 GitHub/2016 Top 10 Android Library.md)
   * [2016 年最受欢迎的编程语言是什么？](第11章 GitHub/2016 年最受欢迎的编程语言是什么？.md)
   * [GitHub秘籍](第11章 GitHub/GitHub秘籍.md)
