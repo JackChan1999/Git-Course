@@ -27,7 +27,17 @@ Bootstrap的官方仓库twbs/bootstrap、你在GitHub上克隆的仓库my/bootst
 # 小结
 
 - 在GitHub上，可以任意Fork开源仓库；
-
 - 自己拥有Fork后的仓库的读写权限；
-
 - 可以推送pull request给官方仓库来贡献代码。
+
+# Github 协同视频教程(Participate)
+
+- 如果您不会使用 Git 或是 Github 也没关系，请认真学习下面视频教程：
+- Judas.n 录制
+  - 视频格式：MP4
+  - 分辨率：1920 X 1080
+  - 片长：16 min
+  - 文件大小：62 M
+- 下载
+  - 百度云盘：http://pan.baidu.com/s/1bogmTLd
+
