@@ -62,7 +62,7 @@ git config --global alias.plm 'pull origin master'
 告诉大家一个比较屌的命令，输入
 
 ```bash
-git log --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 ```
 然后日志这样了：
 
