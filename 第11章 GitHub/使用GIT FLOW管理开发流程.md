@@ -10,7 +10,7 @@
 
 简单来说, 他将 branch 分成2个主要分支和3个临时的辅助分支:
 
-![img](http://stormzhang.com/image/gitflow.png)
+![Git Flow](http://stormzhang.com/image/gitflow.png)
 
 #### 主要分支
 
@@ -25,7 +25,7 @@
 
 作者还提供了 git-flow 命令工具:
 
-```
+```bash
 $ git flow init
 
 ```
@@ -47,14 +47,14 @@ Version tag prefix? []
 
 完成后当前所在分支就变成 develop. 任何开发都必须从 develop 开始:
 
-```
+```bash
 git flow feature start some_awesome_feature
 
 ```
 
 完成功能开发之后:
 
-```
+```bash
 git flow feature finish some_awesome_feature
 
 ```
@@ -63,16 +63,18 @@ git flow feature finish some_awesome_feature
 
 将一个 feature 分支推到远程服务器:
 
-```
+```bash
 git flow feature publish some_awesome_feature
-或者
+
+# 或者
+
 git push origin feature/some_awesome_feature
 
 ```
 
 当你的功能点都完成时（需要发布新版本了），就基于develop创建一个发布(release)分支，然后升级版本号并在最后发布日期前把Bug Fix掉吧：
 
-```
+```bash
 $ git flow release start v0.1.0
 
 ```
@@ -85,7 +87,7 @@ git flow on github: [https://github.com/nvie/gitflow](https://github.com/nvie/gi
 
 ------
 
-![img](http://stormzhang.com/image/wechat_public.png)
+![Git Flow](http://stormzhang.com/image/wechat_public.png)
 
 stormzhang
 

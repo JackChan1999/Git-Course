@@ -1,3 +1,5 @@
+# 从0开始学习 GitHub 系列之「01.初识 GitHub」
+
 ## 1. 写在前面
 
 我一直认为 GitHub 是程序员必备技能，程序员应该没有不知道 GitHub 的才对，没想到这两天留言里给我留言最多的就是想让我写关于 GitHub 的教程，说看了不少资料还是一头雾水，我转念一想，我当初接触 GitHub 也大概工作了一年多才开始学习使用，我读者里很多是初学者，而且还有很多是在校大学生，所以不会用 GitHub 也就不奇怪了，所以我觉得写一写关于 GitHub 的教程就非常有必要了！
@@ -14,7 +16,7 @@
 
 确切的说 GitHub 是一家公司，位于旧金山，由 Chris Wanstrath, PJ Hyett 与 Tom Preston-Werner 三位开发者在2008年4月创办。这是它的 Logo：
 
-![图片描述](http://stormzhang.com/image/Octocat.png)
+![GitHub](images/github_01.png)
 
 2008年4月10日，GitHub正式成立，地址：How people build software · GitHub ，主要提供基于[Git](http://lib.csdn.net/base/git)的版本托管服务。一经上线，它的发展速度惊为天人，截止目前，GitHub 已经发展成全球最大的开（同）源（性）社区。
 
@@ -55,15 +57,15 @@ Git 是一款免费、开源的分布式[版本控制](http://lib.csdn.net/base/
 
 - Linux 发明者 Linus Torvalds：[https://github.com/torvalds](https://github.com/torvalds)
 
-![图片描述](http://stormzhang.com/image/linus.png)
+![GitHub](images/github_02.png)
 
 - Rails 创始人 DHH：[https://github.com/dhh](https://github.com/dhh)
 
-![图片描述](http://stormzhang.com/image/dhh.png)
+![GitHub](images/github_03.png)
 
 - 被称为「Android之神」的 JakeWharton：[https://github.com/JakeWharton](https://github.com/JakeWharton) ， 你们用的很多开源库如 ButterKnife、OkHttp、 Retrofit、 Picasso、ViewPagerIndicator 等都是出自他之手！
 
-![图片描述](http://stormzhang.com/image/jake.png)
+![GitHub](images/github_04.png)
 
 其他就不一一列举了，GitHub 上活跃的很多是 Google 、Square、阿里等公司的员工，有些甚至还是Google Android Team组的，所以在这里你可以接触到全球顶级编程大牛！
 
@@ -93,7 +95,7 @@ Git 是一款免费、开源的分布式[版本控制](http://lib.csdn.net/base/
 
 当然 GitHub 能做的还远不止这些，我见过很多在 GitHub 搞的一些有意思的项目，有找男朋友的，甚至还有利用 GitHub 的 commit 丧心病狂的秀恩爱的，没错，那个丧心病狂的人就是我，如果你前段日子关注了我的 GitHub ，那么能看到这么一个壮观的景象：
 
-![图片描述](http://stormzhang.com/image/stormzhang.jpg)
+![GitHub](images/github_05.png)
 
 ## 7. 加入 GitHub
 

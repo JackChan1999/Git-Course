@@ -2,20 +2,20 @@
 
 在任意 diff 页面的 UR L后加上 `?w=1`，可以去掉那些只是空白字符的改动，使你能更专注于代码改动。
 
-![Diff without whitespace](../assets/github1.png)
+![Diff without whitespace](images/github1.png)
 
-[*详见 GitHub secrets.*](https://github.com/blog/967-github-secrets)
+[详见 GitHub secrets.](https://github.com/blog/967-github-secrets)
 
 # 调整 Tab 字符所代表的空格数
 在 diff 或文件的 URL 后面加上 `?ts=4` ，这样当显示 tab 字符的长度时就会是 4 个空格的长度，不再是默认的 8 个空格。 `ts` 后面的数字还可以根据你个人的偏好进行修改。这个技巧不适用于 Gists，或者以 Raw 格式查看文件， 但有浏览器扩展插件可以帮你自动调整: [Chrome 扩展](https://chrome.google.com/webstore/detail/github-tab-size/ofjbgncegkdemndciafljngjbdpfmbkn) ， [Opera 扩展](https://addons.opera.com/en/extensions/details/github-tab-size/)。
 
 下面以一个 Go 语言源文件为例，看看在 URL 里添加 `?ts=4` 参数的效果。添加前：
 
-![Before, tab space example](../assets/github2.png)
+![Before, tab space example](images/github2.png)
 
 ... 添加后的样子：
 
-![After, tab space example](../assets/github3.png)
+![After, tab space example](images/github3.png)
 
 # 查看用户的全部 Commit 历史
 在 Commits 页面 URL 后加上 `?author={user}` 查看用户全部的提交。
@@ -24,9 +24,9 @@
 https://github.com/rails/rails/commits/master?author=dhh
 ```
 
-![DHH commit history](../assets/github4.png)
+![DHH commit history](images/github4.png)
 
-[*深入了解提交视图之间的区别*](https://help.github.com/articles/differences-between-commit-views)
+[深入了解提交视图之间的区别](https://help.github.com/articles/differences-between-commit-views)
 
 # 仓库克隆
 当克隆仓库时可以不要那个`.git`后缀。
@@ -35,7 +35,7 @@ https://github.com/rails/rails/commits/master?author=dhh
 $ git clone https://github.com/tiimgreen/github-cheat-sheet
 ```
 
-[*更多对 Git `clone` 命令的介绍.*](http://git-scm.com/docs/git-clone)
+[更多对 Git `clone` 命令的介绍.](http://git-scm.com/docs/git-clone)
 
 #分支
 ##将某个分支与其他所有分支进行对比
@@ -49,7 +49,7 @@ https://github.com/{user}/{repo}/branches
 
 在这里你可以访问分支比较页面或删除某个分支。
 
-![Compare branches not merged into master in rails/rails repo - https://github.com/rails/rails/branches](../assets/github5.png)
+![Compare branches not merged into master in rails/rails repo - https://github.com/rails/rails/branches](images/github5.png)
 
 ## 比较分支
 
@@ -67,7 +67,7 @@ https://github.com/{user}/{repo}/compare/{range}
 https://github.com/rails/rails/compare/master...4-1-stable
 ```
 
-![Rails branch compare example](../assets/github6.png)
+![Rails branch compare example](images/github6.png)
 
 `{range}` 参数还可以使用下面的形式:
 
@@ -78,7 +78,7 @@ https://github.com/rails/rails/compare/master@{2014-10-04}...master
 
 *日期格式 `YYYY-MM-DD`*
 
-![Another compare example](../assets/github7.png)
+![Another compare example](images/github7.png)
 
 在 `diff` 和 `patch` 页面里也可以比较分支：
 
@@ -103,13 +103,13 @@ https://github.com/user/repo/compare/{foreign-user}:{branch}...{own-branch}
 https://github.com/rails/rails/compare/byroot:master...master
 ```
 
-![Forked branch compare](../assets/github8.png)
+![Forked branch compare](images/github8.png)
 
 # Gists
 
 [Gists](https://gist.github.com/) 方便我们管理代码片段，不必使用功能齐全的仓库。
 
-![Gist](../assets/github9.png)
+![Gist](images/github9.png)
 
 Gist 的 URL 后加上 `.pibb`（[像这样](https://gist.github.com/tiimgreen/10545817.pibb)）可以得到便于嵌入到其他网站 的 HTML 代码。
 
@@ -119,7 +119,7 @@ Gists 可以像任何标准仓库一样被克隆。
 $ git clone https://gist.github.com/tiimgreen/10545817
 ```
 
-![Gists](../assets/github10.png)
+![Gists](images/github10.png)
 
 这意味着你可以像 Github 仓库一样修改和更新 Gists :
 
@@ -136,7 +136,7 @@ Password for 'https://tiimgreen@gist.github.com':
 # Git.io
 [Git.io](http://git.io)是 Github 的短网址服务。
 
-![Git.io](../assets/github11.png)
+![Git.io](images/github11.png)
 
 你可以通过 Curl 命令以普通 HTTP 协议使用它：
 
@@ -164,7 +164,7 @@ Location: https://github.com/...
 
 按`?`查看当前页面支持的快捷键列表：
 
-![Keyboard shortcuts](../assets/github12.png)
+![Keyboard shortcuts](images/github12.png)
 
 [*进一步了解可用的搜索语法.*](https://help.github.com/articles/search-syntax/)
 
@@ -178,7 +178,7 @@ Location: https://github.com/...
 https://github.com/rails/rails/blob/master/activemodel/lib/active_model.rb#L53-L60
 ```
 
-![整行高亮](../assets/github13.png)
+![整行高亮](images/github13.png)
 
 # 用 Commit 信息关闭 Issue
 
@@ -190,7 +190,7 @@ $ git commit -m "Fix screwup, fixes #12"
 
 这将会关闭 Issue #12，并且在 Issue 讨论列表里关联引用这次提交。
 
-![Closing Repo](../assets/github14.png)
+![Closing Repo](images/github14.png)
 
 [*进一步了解通过提交信息关闭 Issue.*](https://help.github.com/articles/closing-issues-via-commit-messages)
 
@@ -199,35 +199,35 @@ $ git commit -m "Fix screwup, fixes #12"
 
 要链接到其他仓库的 Issue ，就使用`{user}/{repo}#ISSUE_NUMBER`的方式，例如`tiimgreen/toc#12`。
 
-![Cross-Link Issues](../assets/github15.png)
+![Cross-Link Issues](images/github15.png)
 
 # 锁定项目对话功能
 现在仓库的管理员和合作者可以将 Pull Requests 和 Issue 的评论功能关闭。
 
-![Lock conversation](../assets/github16.png)
+![Lock conversation](images/github16.png)
 
 这样，不是项目合作者的用户就不能在这个项目上使用评论功能。
 
-![Comments locked](../assets/github17.png)
+![Comments locked](images/github17.png)
 
 [*进一步了解对话锁定功能.*](https://github.com/blog/1847-locking-conversations)
 
 # 设置 CI 对每条 Pull Request 都进行构建
 如果配置正确，[Travis CI](https://travis-ci.org/) 会为每个你收到的 Pull Request 执行构建，就像每次提交也会触发构建一样。想了解更多关于 Travis CI 的信息，请参考 [Travis CI入门](http://docs.travis-ci.com/user/getting-started/)。
 
-[![Travis CI status](../assets/github18.png)](https://github.com/octokit/octokit.rb/pull/452)
+[![Travis CI status](images/github18.png)](https://github.com/octokit/octokit.rb/pull/452)
 
 [*进一步了解提交状态 API.*](https://github.com/blog/1227-commit-status-api)
 
 # Markdown 文件语法高亮
 例如，可以像下面这样在你的 Markdown 文件里为 Ruby 代码添加语法高亮：
 
-    ​```ruby
-    require 'tabbit'
-    table = Tabbit.new('Name', 'Email')
-    table.add_row('Tim Green', 'tiimgreen@gmail.com')
-    puts table.to_s
-    ​```
+```ruby
+require 'tabbit'
+table = Tabbit.new('Name', 'Email')
+table.add_row('Tim Green', 'tiimgreen@gmail.com')
+puts table.to_s
+```
 
 效果如下：
 
@@ -276,7 +276,7 @@ Github 上使用最多的5个表情符号是：
 ![Alt Text](https://github.com/{user}/{repo}/raw/master/path/to/image.gif)
 ```
 
-![Peter don't care](../assets/github19.gif)
+![Peter don't care](images/github19.gif)
 
 所有图片都缓存在 Github，不用担心你的站点不能访问时就看不到图片了。
 
@@ -288,12 +288,12 @@ Github 上使用最多的5个表情符号是：
 ```
 结果：
 
-![Just a screenshot](../assets/github20.png)
+![Just a screenshot](images/github20.png)
 
 # 快速引用
 在主题评论中引用之前某个人所说的，只需选中文本，然后按 `r` 键，想要的就会以引用的形式复制到你的输入框里。
 
-![Quick Quote](../assets/github21.gif)
+![Quick Quote](images/github21.gif)
 
 [*进一步了解快速引用.*](https://github.com/blog/1399-quick-quotes)
 
@@ -303,7 +303,7 @@ _（仅适用于 Chrome 浏览器）_
 
 当截屏图片复制到剪贴板后（mac 上用 `cmd-ctrl-shift-4`），你可以用(`cmd-v / ctrl-v`)把图片粘贴到评论框里，然后它就会自动上传到 Github。
 
-![Pasting Clipboard Image to Comments](../assets/github22.png)
+![Pasting Clipboard Image to Comments](images/github22.png)
 
 [*进一步了解在 issue 中使用附件*](https://help.github.com/articles/issue-attachments)
 
@@ -311,11 +311,11 @@ _（仅适用于 Chrome 浏览器）_
 # 快速添加许可证文件
 创建一个仓库时，Github会为你提供一个预置的软件许可列表：
 
-![License](../assets/github23.png)
+![License](images/github23.png)
 
 对于已有的仓库，可以通过 web 界面创建文件来添加软件许可。输入`LICENSE`作为文件名后，同样可以从预置的列表中选择一个作为模板。
 
-![License](../assets/github24.png)
+![License](images/github24.png)
 
 这个技巧也适用于 `.gitignore` 文件。
 
@@ -333,7 +333,7 @@ Issues 和 Pull requests 里可以添加复选框，语法如下（注意空白�
 - [ ] Sleep
 ```
 
-![Task List](../assets/github25.png)
+![Task List](images/github25.png)
 
 当项目被选中时，它对应的 Markdown 源码也被更新了：
 
@@ -394,7 +394,7 @@ Jemoji 和 jekyll-mentions 插件为你的 Jekyll 文章和页面增加了[emoji
 # 查看 YAML 格式的元数据
 许多博客站点，比如基于 [Jekyll](http://jekyllrb.com/)的[GitHub Pages](http://pages.github.com/) ，都依赖于一些文章头部的 YAML 格式的元数据。 Github 会将其渲染成一个水平表格，方便阅读。
 
-![YAML metadata](../assets/github26.png)
+![YAML metadata](images/github26.png)
 
 [*进一步了解 在文档里查看 YAML 元数据.*](https://github.com/blog/1647-viewing-yaml-metadata-in-your-documents)
 
@@ -402,7 +402,7 @@ Jemoji 和 jekyll-mentions 插件为你的 Jekyll 文章和页面增加了[emoji
 
 GitHub 支持将 `.csv` (逗号分隔)和 `.tsv` (制表符分隔)格式的文件渲染成表格数据。
 
-![Tabular data](../assets/github27.png)
+![Tabular data](images/github27.png)
 
 [*进一步了解渲染表格数据.*](https://github.com/blog/1601-see-your-csvs)
 
@@ -411,7 +411,7 @@ GitHub 支持将 `.csv` (逗号分隔)和 `.tsv` (制表符分隔)格式的文�
 
 此时可以通过 Pull Request 中的 Revert 按钮来撤销一个已合并的 Pull Request 中的 commit。按下按钮后将自动生成一个进行逆操作的 Pull Request。
 
-![Revert button](../assets/github28.png)
+![Revert button](images/github28.png)
 
 [*进一步了解“撤销”按钮](https://github.com/blog/1857-introducing-the-revert-button)
 
@@ -420,25 +420,25 @@ GitHub 支持将 `.csv` (逗号分隔)和 `.tsv` (制表符分隔)格式的文�
 
 Commit 和 Pull Request 里包含有 Github 支持的可渲染文档（比如 Markdown）会提供*source* 和 *rendered* 两个视图功能。
 
-![Source / Rendered view](../assets/github40.png)
+![Source / Rendered view](images/github40.png)
 
 点击 "rendered" 按钮，看看改动在渲染后的显示效果。当你添加、删除或修改文本时，渲染纯文本视图非常方便。
 
-![Rendered Prose Diffs](../assets/github29.png)
+![Rendered Prose Diffs](images/github29.png)
 
 [*进一步了解渲染纯文本视图Diffs.*](https://github.com/blog/1784-rendered-prose-diffs)
 
 ## 可比较的地图数据
 当你在GitHub上查看一个包含地理数据的 commit 或 pull request时，Github 将以可视化的方式对比版本之间的差异。
 
-[![Diffable Maps](../assets/github30.gif)](https://github.com/benbalter/congressional-districts/commit/2233c76ca5bb059582d796f053775d8859198ec5)
+[![Diffable Maps](images/github30.gif)](https://github.com/benbalter/congressional-districts/commit/2233c76ca5bb059582d796f053775d8859198ec5)
 
 [*进一步了解可比较的地图数据.*](https://github.com/blog/1772-diffable-more-customizable-maps)
 
 ## 在 Diff 中展开查看更多的上下文
 你可以通过点击 diff 边栏里的 *unfold* 按钮来多显示几行上下文。你可以一直点击 *unfold* 按钮直到显示了文件的全部内容。这个功能在所有 GitHub 的 diff 功能中都可以使用。
 
-![Expanding Context in Diffs](../assets/github31.gif)
+![Expanding Context in Diffs](images/github31.gif)
 
 [*进一步了解展开 Diff 上下文.*](https://github.com/blog/1705-expanding-context-in-diffs)
 
@@ -452,7 +452,7 @@ https://github.com/tiimgreen/github-cheat-sheet/pull/15.patch
 ```
 `.diff` 扩展会使用普通文本格式显示如下内容：
 
-```
+```bash
 diff --git a/README.md b/README.md
 index 88fcf69..8614873 100644
 --- a/README.md
@@ -473,7 +473,7 @@ index 88fcf69..8614873 100644
 ## 显示图片以及比较图片
 GitHub 可以显示包括 PNG、JPG、GIF、PSD 在内的多种图片格式并提供了几种方式来比较这些格式的图片文件版本间的不同。
 
-[![Diffable PSD](../assets/github32.gif)](https://github.com/blog/1845-psd-viewing-diffing)
+[![Diffable PSD](images/github32.gif)](https://github.com/blog/1845-psd-viewing-diffing)
 
 [*查看更多关于图片显示和比较*](https://help.github.com/articles/rendering-and-diffing-images)
 
@@ -492,14 +492,14 @@ $ hub clone tiimgreen/toc
 
 在仓库的根目录添加一个名为 `CONTRIBUTING` 的文件后，贡献者在新建 Issue 或 Pull Request 时会看到一个指向这个文件的链接。
 
-![Contributing Guidelines](../assets/github33.jpg)
+![Contributing Guidelines](images/github33.jpg)
 
 [*进一步了解贡献者指南.*](https://github.com/blog/1184-contributing-guidelines)
 
 # Octicons
 GitHubs 图标库 (Octicons) 现已开源。
 
-![Octicons](../assets/github34.png)
+![Octicons](images/github34.png)
 
 [*进一步了解 GitHub 图标库*](https://octicons.github.com)
 
@@ -658,7 +658,7 @@ $ git status
 
 可以看到:
 
-![git status](../assets/github35.png)
+![git status](images/github35.png)
 
 加上`-sb`选项:
 
@@ -668,7 +668,7 @@ $ git status -sb
 
 这会得到:
 
-![git status -sb](../assets/github36.png)
+![git status -sb](images/github36.png)
 
 [*进一步了解 Git `status` 命令.*](http://git-scm.com/docs/git-status)
 
@@ -681,7 +681,7 @@ $ git log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s 
 
 可以看到:
 
-![git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative](../assets/github37.png)
+![git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative](images/github37.png)
 
 这要归功于 [Palesz](http://stackoverflow.com/users/88355/palesz) 在 stackoverflow 的回答。
 
@@ -701,7 +701,7 @@ $ git show :/query
 ```bash
 $ git show :/typo
 ```
-![git show :/query](../assets/github38.png)
+![git show :/query](images/github38.png)
 
 * 按 `q` 键退出命令。*
 
@@ -742,7 +742,7 @@ $ git instaweb
 
 执行后打开：
 
-![Git instaweb](../assets/github39.png)
+![Git instaweb](images/github39.png)
 
 [*进一步了解 Git `instaweb` 命令.*](http://git-scm.com/docs/git-instaweb)
 

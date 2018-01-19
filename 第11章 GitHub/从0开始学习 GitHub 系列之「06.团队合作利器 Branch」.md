@@ -1,3 +1,5 @@
+# 从0开始学习 GitHub 系列之「06.团队合作利器 Branch」
+
 [Git](http://lib.csdn.net/base/git) 相比于 SVN 最强大的一个地方就在于「分支」，Git 的分支操作简直不要太方便，而实际项目开发中团队合作最依赖的莫过于分支了，关于分支前面的系列也提到过，但是本篇会详细讲述什么是分支、分支的具体操作以及实际项目开发中到底是怎么依赖分支来进行团队合作的。
 
 ## 1. 什么是分支？
@@ -68,7 +70,7 @@
 
 准确的说 Git Flow 是一种比较成熟的分支管理流程，我们先看一张图能清晰的描述他整个的工作流程：
 
-![图片描述](http://stormzhang.com/image/gitflow.png)
+![GitHub](images/branch.png)
 
 第一次看上面那个图是不是一脸懵逼？跟我当时一样，不急，我来用简单的话给你们解释下。
 
@@ -131,14 +133,14 @@ git flow feature finish A
 
 #### 更多相关博客
 
-[从0开始学习 GitHub 系列之「初识 GitHub」](http://stormzhang.com/github/2016/05/25/learn-github-from-zero1/)
+[从0开始学习 GitHub 系列之「初识 GitHub」](从0开始学习 GitHub 系列之「01.初识 GitHub」.md)
 
-[从0开始学习 GitHub 系列之「加入 GitHub」](http://stormzhang.com/github/2016/05/26/learn-github-from-zero2/)
+[从0开始学习 GitHub 系列之「加入 GitHub」](从0开始学习 GitHub 系列之「02.加入 GitHub」.md)
 
-[从0开始学习 GitHub 系列之「Git 速成」](http://stormzhang.com/github/2016/05/30/learn-github-from-zero3/)
+[从0开始学习 GitHub 系列之「Git 速成」](从0开始学习 GitHub 系列之「03.Git 速成」.md)
 
-[从0开始学习 GitHub 系列之「向GitHub 提交代码」](http://stormzhang.com/github/2016/06/04/learn-github-from-zero4/)
+[从0开始学习 GitHub 系列之「向GitHub 提交代码」](从0开始学习 GitHub 系列之「04.向GitHub 提交代码」.md)
 
-[从0开始学习 GitHub 系列之「Git 进阶」](http://stormzhang.com/github/2016/06/16/learn-github-from-zero5/)
+[从0开始学习 GitHub 系列之「Git 进阶」](从0开始学习 GitHub 系列之「05.Git 进阶」.md)
 
 > 本文原创发布于[微信](http://lib.csdn.net/base/wechat)公众号 **AndroidDeveloper「googdev」**，转载请务必注明出处！

@@ -1,3 +1,5 @@
+# 4.6 让GitBisect帮助你
+
 Git 提供来很多的工具来帮助我们改进工作流程。 **bisect** 命令就是其中之一, 虽然由于使用得不多而不广为人知，但是当你想知道一个本来好的分支从什么时候开始变坏时，它就能派上用场了。到底是哪一次提交把事情搞砸了呢，让 bisect 来告诉你吧。
 
 Bisect 基于[二分查找算法](http://en.wikipedia.org/wiki/Binary_search_algorithm)。给定一个有序的元素序列，它会返回要你要查找的元素的序号（或者告诉你该元素是否在序列中）。它基于如下的不变式：当你对比完一个元素，你就能根据比较的结果抛弃掉它之前或者之后的所有元素（从而大大缩小下次查找的范围）。
@@ -21,25 +23,25 @@ Bisect 就是利用二分查找发来查找在你的某一分支中到底是哪�
 
 首先，我们定出一个方法来判断文件里面有没有这个数字。这就是一个测试了。方法很简单：
 
-```
+```bash
 $ grep 1013 file.txt
 ```
 
 有了这条命令，我们就可以开始 bisect 了:
 
-```
+```bash
 $ git bisect start
 ```
 
 对 master 分支（的头部提交点）运行这个测试，没有得到想要的结果（就是没有任何输出），所以我们把它标记为坏的。
 
-```
+```bash
 $ git bisect bad
 ```
 
 现在让我们指定一个好的提交点：假设第一个提交点（7c0dcfa）是没有 bug 的。我们可以检出（check out）这个提交点并标记它为好的提交点（git bisect good + 该提交点的哈希值）。
 
-```
+```bash
 $ git bisect good 7c0dcfa
 Bisecting: 511 revisions left to test after this (roughly 9 steps)
 [8950f7db7e7cad0b2dc394ff9b75fc3d38c9d72a] added 512
@@ -47,7 +49,7 @@ Bisecting: 511 revisions left to test after this (roughly 9 steps)
 
 也可以用下面的命令，完成上面的所有步骤：
 
-```
+```bash
 $ git bisect start master 7c0dcfa
 ```
 
@@ -56,7 +58,7 @@ git bisect start 命令可以接受两个参数，第一个是坏的提交点，
 
 很好，git bisect 自动检出了正中间的提交点，运行我们的检测命令，没有任何的输出（没有 bug），因此我们把该提交点标记为好的。
 
-```
+```bash
 $ grep 1013 file.txt
 
 $ git bisect good
@@ -67,7 +69,7 @@ Bisecting: 剩余 255 个修订待测试 (大概还需要 8 步)
 译者注：按照二分查找算法，bisect 根据你标记的结果，决定是检出左半边的中间提交点（如果你标记为 bad）还是右半边的中间提交点（如果你标记为 good）
 在 bisect 新检出的提交点上，我们再次运行测试命令。这次依然是个好的提交点。
 
-```
+```bash
 $ grep 1013 file.txt
 
 $ git bisect good
@@ -77,7 +79,7 @@ Bisecting:剩余 127 个修订待测试 (大概还需要 7 步)
 
 再次检测，还是好的提交点。
 
-```
+```bash
 $ grep 1013 file.txt
 
 $ git bisect good
@@ -87,7 +89,7 @@ Bisecting: 剩余 63 个修订待测试 (大概还需要 6 步)
 
 让我们看看这些消息：除了告诉你当前新检出的提交点以及新的搜索范围内有多少个待测试的提交点外，它还估计出你最多还需要重复多少次测试命令就能找到你要的提交点。这次又是一个好的提交点。
 
-```
+```bash
 $ grep 1013 file.txt
 
 $ git bisect good
@@ -97,7 +99,7 @@ Bisecting: 剩余 31 个修订待测试 (大概还需要 5 步)
 
 继续，依然是一个好的提交点。
 
-```
+```bash
 $ grep 1013 file.txt
 
 $ git bisect good
@@ -107,7 +109,7 @@ Bisecting: 剩余 15 个修订待测试 (大概还需要 4 步)
 
 还有 4 步，这次依然 good。
 
-```
+```bash
 $ grep 1013 file.txt
 
 $ git bisect good
@@ -117,7 +119,7 @@ Bisecting: 剩余 7 个修订待测试 (大概还需要 3 步)
 
 这次测试命令终于有了输出，bug 现身了！我们把这个提交点标记为坏的。
 
-```
+```bash
 $ grep 1013 file.txt
 1013
 $ git bisect bad
@@ -127,7 +129,7 @@ Bisecting: 剩余 3 个修订待测试 (大概还需要 2 步)
 
 终点近在咫尺，测试通过，我们把它标记为好的。
 
-```
+```bash
 $ grep 1013 file.txt
 
 $ git bisect bad
@@ -137,7 +139,7 @@ Bisecting: 剩余 1 个修订待测试 (大概还需要 1 步)
 
 坏的提交点。
 
-```
+```bash
 $ grep 1013 file.txt
 1013
 $ git bisect bad
@@ -147,7 +149,7 @@ Bisecting: 剩余 0 个修订待测试 (大概还需要 0 步)
 
 最后一步，这次是坏的。
 
-```
+```bash
 $ git bisect bad
 458eab0eb8d808e16d98ec7039a7c53855dd9ed6 is the first bad commit
 commit 458eab0eb8d808e16d98ec7039a7c53855dd9ed6
@@ -162,7 +164,7 @@ Date:   Tue Oct 21 22:31:05 2014 -0200
 
 我们终于得到了那个引入 1013 数字的提交点。命令 git bisect log 可以回放整个过程。
 
-```
+```bash
 $ git bisect start
 # bad: [740cdf012013dc41a39b41d4b09b57a970bfe38f] added 1024
 git bisect bad 740cdf012013dc41a39b41d4b09b57a970bfe38f
@@ -216,7 +218,7 @@ fi
 
 接着在给 bisect 命令指定了初始的好/坏提交点之后，你只需要运行：
 
-```
+```bash
 git bisect run ./test.sh
 running ./ola.sh
 Bisecting: 255 revisions left to test after this (roughly 8 steps)

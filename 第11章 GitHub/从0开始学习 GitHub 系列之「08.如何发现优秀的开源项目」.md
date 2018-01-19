@@ -1,3 +1,5 @@
+# 从0开始学习 GitHub 系列之「08.如何发现优秀的开源项目」
+
 之前发过一系列有关 GitHub 的文章，有同学问了，GitHub 我大概了解了，[Git](http://lib.csdn.net/base/git) 也差不多会使用了，但是 还是搞不清 GitHub 如何帮助我的工作，怎么提升我的工作效率？
 
 问到点子上了，GitHub 其中一个最重要的作用就是发现全世界最优秀的开源项目，你没事的时候刷刷微博、知乎，人家没事的时候刷刷 GitHub ，看看最近有哪些流行的项目，久而久之，这差距就越来越大，那么如何发现优秀的开源项目呢？这篇文章我就来给大家介绍下。
@@ -6,21 +8,21 @@
 
 GitHub 主页有一个类似微博的时间线功能，所有你关注的人的动作，比如 star、fork 了某个项目都会出现在你的时间线上，这种方式适合我这种比较懒的人，不用主动去找项目，而这种基本是我每天获取信息的一个很重要的方式。不知道怎么关注这些人？那么很简单，关注我 stormzhang ，以及我 GitHub 上关注的一些大牛，基本就差不多了。
 
-![图片描述](http://stormzhang.com/image/github1.png)
+![GitHub](images/github_45.jpg)
 
 ## 2. Trending
 
 点击下图的 Explore 菜单到“发现”页面
 
-![图片描述](http://stormzhang.com/image/github2.png)
+![GitHub](images/github_46.jpg)
 
 紧接着点击 Trending 按钮
 
-![图片描述](http://stormzhang.com/image/github3.png)
+![GitHub](images/github_47.jpg)
 
 这个 Trending 页面是干嘛的呢？直译过来就是趋势的意思，就是说这个页面你可以看到最近一些热门的开源项目，这个页面可以算是很多人主动获取一些开源项目最好的途径，可以选择「当天热门」、「一周之内热门」和「一月之内热门」来查看，并且还可以分语言类来查看，比如你想查看最近热门的 [Android](http://lib.csdn.net/base/android) 项目，那么右边就可以选择 [Java](http://lib.csdn.net/base/javase) 语言。
 
-![图片描述](http://stormzhang.com/image/github4.png)
+![GitHub](images/github_48.jpg)
 
 这样页面推荐大家每隔几天就去看下，主动发掘一些优秀的开源项目。
 
@@ -30,17 +32,17 @@ GitHub 主页有一个类似微博的时间线功能，所有你关注的人的�
 
 举个例子，你是做 Android 的，接触 GitHub 没多久，那么第一件事就应该输入 android 关键字进行搜索，然后右上角选择按照 star 来排序，结果如下图：
 
-![图片描述](http://stormzhang.com/image/github_search1.png)
+![GitHub](images/github_49.jpg)
 
 如果你是学习 [iOS](http://lib.csdn.net/base/ios) 的，那么不妨同样的方法输入 iOS 关键字看看结果：
 
-![图片描述](http://stormzhang.com/image/github_search2.png)
+![GitHub](images/github_50.jpg)
 
 可以看到按照 star 数，排名靠前基本是一些比较火的项目，一定是很有用，才会这么火。值得一提的是左侧依然可以选择语言进行过滤。
 
 而对于实际项目中用到一些库，基本上都会第一时间去 GitHub 搜索下有没有类似的库，比如项目中想采用一个网络库，那么不妨输入 android http 关键字进行搜索，因为我只想找到关于 Android 的项目，所以搜索的时候都会加上 android 关键字，按照 star 数进行排序，我们来看下结果：
 
-![图片描述](http://stormzhang.com/image/github_search3.png)
+![GitHub](images/github_51.jpg)
 
 可以看到 Retrofit、OkHttp、android-async-http 是最流行的网络库，只不过 android-async-http 的作者不维护了，之前很多人问我网络库用哪个比较好？哪怕你对每个网络库都不是很了解，那么单纯的按照这种方式你都该优先选择 Retrofit 或者 OkHttp，而目前绝大部分 Android 开发者确实也都是在用这两个网络库，当然还有部分在用 Volley 的，因为 google 没有选择在 GitHub 开源 volley，所以搜不到 volley 的上榜。
 
@@ -52,7 +54,7 @@ android http stars:>1000
 
 有些人如果习惯用 Google 进行搜索，那么想搜索 GitHub 上的结果，不妨前面加 GitHub 关键字就ok了，比如我在 google 里输入 GitHub android http ，每个关键字用空格隔开，然后搜索结果如下：
 
-![图片描述](http://stormzhang.com/image/github_search4.png)
+![GitHub](images/github_52.jpg)
 
 可以看到，基本也是我们想要的结果，只不过排序就不是单纯的按照 star 来排序了。
 

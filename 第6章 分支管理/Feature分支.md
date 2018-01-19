@@ -8,14 +8,14 @@
 
 于是准备开发：
 
-```
+```bash
 $ git checkout -b feature-vulcan
 Switched to a new branch 'feature-vulcan'
 ```
 
 5分钟后，开发完毕：
 
-```
+```bash
 $ git add vulcan.py
 $ git status
 # On branch feature-vulcan
@@ -32,13 +32,13 @@ $ git commit -m "add feature vulcan"
 
 切回dev，准备合并：
 
-```
+```bash
 $ git checkout dev
 ```
 
 一切顺利的话，feature分支和bug分支是类似的，合并，然后删除。但是，就在此时，接到上级命令，因经费不足，新功能必须取消！虽然白干了，但是这个分支还是必须就地销毁：
 
-```
+```bash
 $ git branch -d feature-vulcan
 error: The branch 'feature-vulcan' is not fully merged.
 If you are sure you want to delete it, run 'git branch -D feature-vulcan'.
@@ -48,7 +48,7 @@ If you are sure you want to delete it, run 'git branch -D feature-vulcan'.
 
 现在我们强行删除：
 
-```
+```bash
 $ git branch -D feature-vulcan
 Deleted branch feature-vulcan (was 756d4af).
 ```

@@ -25,8 +25,9 @@ Git教程原文 - 廖雪峰的官方网站
 ## 更多Git教程
 
 - [Pro Git 中文版](https://alleniverson.gitbooks.io/gitcourse/content/https://www.gitbook.com/book/0532/progit/details)
-- [Pro Git 第二版 简体中文](https://alleniverson.gitbooks.io/gitcourse/content/https://www.gitbook.com/book/bingohuang/progit2/details)
-- [从 0 开始学习%20GitHub](https://alleniverson.gitbooks.io/gitcourse/content/https://www.gitbook.com/book/stormzhang/learn-github-from-zero/details)
+- [Pro Git 第二版 简体中文 1](https://git-scm.com/book/zh/v2)
+- [Pro Git 第二版 简体中文 2](https://alleniverson.gitbooks.io/gitcourse/content/https://www.gitbook.com/book/bingohuang/progit2/details)
+- [从 0 开始学习GitHub](https://alleniverson.gitbooks.io/gitcourse/content/https://www.gitbook.com/book/stormzhang/learn-github-from-zero/details)
 - [github-cheat-sheet GitHub秘籍](https://alleniverson.gitbooks.io/gitcourse/content/https://github.com/tiimgreen/github-cheat-sheet/blob/master/README.zh-cn.html)
 
 ## Github托管主页
@@ -35,7 +36,9 @@ Git教程原文 - 廖雪峰的官方网站
 
 请读者点击Star进行关注并支持！
 
-## 在线阅读
+## GitBook在线阅读
+
+在线阅读，PDF、ePub、Mobi电子书下载
 
 **https://alleniverson.gitbooks.io/gitcourse/content/**
 
@@ -61,7 +64,8 @@ Git教程原文 - 廖雪峰的官方网站
 
 * [第5章 远程仓库](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/README.html)
   * [5.1 添加远程仓库](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/添加远程仓库.html)
-  * [5.2 从远程仓库克隆](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/从远程仓库克隆.html)
+  * [5.2 从远程库克隆](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/从远程库克隆.html)
+  * [5.3 Git push与pull的默认行为](https://alleniverson.gitbooks.io/gitcourse/content/第5章%20远程仓库/push与pull的默认行为.html)
 
 * [第6章 分支管理](https://alleniverson.gitbooks.io/gitcourse/content/第6章%20分支管理/README.html)
   * [6.1 创建与合并分支](https://alleniverson.gitbooks.io/gitcourse/content/第6章%20分支管理/创建与合并分支.html)
@@ -91,17 +95,17 @@ Git教程原文 - 廖雪峰的官方网站
   * [04.向GitHub%20提交代码](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/从0开始学习%20GitHub%20系列之%e3%80%8c04.向GitHub%20提交代码%e3%80%8d.html)
   * [05.Git 进阶](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/从0开始学习%20GitHub%20系列之%e3%80%8c05.Git%20进阶%e3%80%8d.html)
   * [06.团队合作利器 Branch](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/从0开始学习%20GitHub%20系列之%e3%80%8c06.团队合作利器%20Branch%e3%80%8d.html)
-  * [07.GitHub 常见的几种操作](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/从0开始学习%20GitHub%20系列之%e3%80%8c07.GitHub%20常见的几种操作%e3%80%8d)
-  * [08.如何发现优秀的开源项目](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/从0开始学习%20GitHub%20系列之%e3%80%8c08.如何发现优秀的开源项目%e3%80%8d)
+  * [07.GitHub 常见的几种操作](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/从0开始学习%20GitHub%20系列之%e3%80%8c07.GitHub%20常见的几种操作%e3%80%8d.html)
+  * [08.如何发现优秀的开源项目](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/从0开始学习%20GitHub%20系列之%e3%80%8c08.如何发现优秀的开源项目%e3%80%8d.html)
   * [使用GIT FLOW管理开发流程](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/使用GIT%20FLOW管理开发流程.html)
-  * [2016 Top 10 Android Library](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/2016%20Top%2010%20Android%20Library.html)
   * [GIT常用命令备忘](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/GIT常用命令备忘.html)
+  * [2016 Top 10 Android Library](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/2016%20Top%2010%20Android%20Library.html)
   * [2016 年最受欢迎的编程语言是什么？](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/2016%20年最受欢迎的编程语言是什么？.html)
   * [GitHub秘籍](https://alleniverson.gitbooks.io/gitcourse/content/第11章%20GitHub/GitHub秘籍.html)
 
 ## 关注我
 
-- Email：<815712739@qq.com>
+- Email：<619888095@qq.com>
 - CSDN博客：[Allen Iverson](http://blog.csdn.net/axi295309066)
 - 新浪微博：[AndroidDeveloper](http://weibo.com/u/1848214604?topnav=1&wvr=6&topsug=1&is_all=1)
 - GitHub：[JackChan1999](https://github.com/JackChan1999)
